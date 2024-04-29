@@ -5,9 +5,7 @@ Full sequence diagram of the extract application is shown below:
 ![Extract Diagram](arch.PNG)
 
 
-This repo contains the frontend code built with React that consumes backend service in AWS Lambda exposed through API gateway.
-
-It simply allows uploading the file and POST it to the service. Relevant code is shown below:  
+This repo contains the frontend code built with React that consumes backend service in AWS Lambda exposed through API gateway. Relevant code is shown below:  
 ```
     setIsLoading(true);
     setResult([]);
