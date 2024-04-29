@@ -2,7 +2,7 @@
 The source code to build a basic extract application using GenAI or Large Language Model (LLM). 
 
 Full sequence diagram of the extract application is shown below: 
-![Extract Diagram](arch.PNG)
+![Extract Diagram](extract.svg)
 
 
 This repo contains the frontend code built with React that consumes backend service in AWS Lambda exposed through API gateway. Relevant code is shown below:  
