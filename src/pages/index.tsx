@@ -79,6 +79,7 @@ export default function Home() {
     const [result, setResult] = useState([]);
     const [text, setText] = useState("");
     const [fields, setFields] = useState([]);
+    const serviceUrl = ""
     const elemRef = useRef()
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -88,7 +89,7 @@ export default function Home() {
     setResult([]);
     try {
       const data = {extractMessage: {fields:fields, text:text}};
-      const res = await fetch('https://f4wo0au9r5.execute-api.us-east-1.amazonaws.com/default/claude-chat', {
+      const res = await fetch(serviceUrl, {
         method: 'POST',
         body: JSON.stringify(data)
       })
