@@ -48,7 +48,7 @@ Output from the service will be as follows:
 \nAnnual income: 12000000\nBusiness type: selling ice cream"
 ```
 
-The final UI will look something like this:
+Here is the screenshot of a final product:
 ![Extract UI](extract.PNG)
 
 
